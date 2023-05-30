@@ -3,9 +3,9 @@ import styles from './button.module.css'
 import Link from 'next/link'
 
 // accepts props to alter text content or link path depending on button
-export default function Button({href, children}) {
+export default function Button({href, children, width}) {
   return (
-    <div className={styles.navButton}>
+    <div className={styles.navButton} style={{ width }}>
       <Link href={href}
         className={styles.button}>{children}
       </Link>

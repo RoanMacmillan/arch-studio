@@ -44,7 +44,38 @@ export default function Home() {
         <h1>Small team, big ideas</h1>
         
 
-        <Button href="/about">About us</Button>
+        <Button href="/about" width="187px">About us</Button>
+      </div>
+
+      <div className={styles.featuredContainer}>
+      <h1>Featured</h1>
+
+      <div className={`${styles.imageCard} ${styles.card1}`}>
+
+      <h2>Project Del Sol</h2>
+      <a>View all projects</a>
+
+
+      </div>
+
+      <div className={`${styles.imageCard} ${styles.card2}`}>
+
+      <h2>228B Tower</h2>
+      <a>View all projects</a>
+
+
+      </div>
+
+      <div className={`${styles.imageCard} ${styles.card3}`}>
+
+      <h2>Le Prototype</h2>
+      <a>View all projects</a>
+
+
+      </div>
+
+      <Button href='/portfolio' width="100%">See All</Button>
+
       </div>
 
 
